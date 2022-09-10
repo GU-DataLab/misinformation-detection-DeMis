@@ -1,9 +1,9 @@
 # DeMis: Data-efficient Misinformation Detection using RL
 Reinforcement Learning based models for misinformation detection on Twitter. This repo is the official resource of the following paper.
-- [DeMis: Data-efficient Misinformation Detection using Reinforcement Learning](XXX), ECML-PKDD 2022.
+- [DeMis: Data-efficient Misinformation Detection using Reinforcement Learning](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing), ECML-PKDD 2022.
 
 ## 📚 Data Sets
-The data sets about COVID-19 misinformation on Twitter presented in [our paper](XXX) are available below.
+The data sets about COVID-19 misinformation on Twitter presented in [our paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing) are available below.
 
 - COMYTH (weather & home-remedies) - [[Download](XXX)]
 - COVIDLies - [[Paper](XXX)]
@@ -13,7 +13,7 @@ We release our RL-based models (DeMis) for misinformation detection on Twitter t
 
 - [DeMis-COMYTH-W](XXX) (trained on COVID-weather data)
 - [DeMis-COMYTH-H](XXX) (trained on COVID-home-remedies data)
-- [DeMis-COVIDLies](XXX) (trained COVIDLies data)
+- [DeMis-COVIDLies](XXX) (trained on COVIDLies data)
 
 ## ⚙️ Usage
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
