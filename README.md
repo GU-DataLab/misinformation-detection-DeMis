@@ -9,14 +9,14 @@ The data sets about COVID-19 misinformation on Twitter presented in [our paper](
 - COMYTH (weather & home-remedies) - [[Datasets](https://portals.mdi.georgetown.edu/public/misinformation-detection)]
 - COVIDLies - [[Paper](https://aclanthology.org/2020.nlpcovid19-2.11/)]
 
-## 🚀 Pre-trained Models (coming soon)
+## 🚀 ~Pre-trained Models~ (coming soon)
 We release our models for misinformation detection on Twitter trained using DeMis method. There are three models trained on three COVID-19 misinformation data sets separately. All trained misinformation detection models are available on my [Google Drive](XXX) 🤗 so you can download models via PyTorch and use it for prediction right away!!!
 
-- [DeMis-COMYTH-W](XXX) (trained on COVID-weather data)
-- [DeMis-COMYTH-H](XXX) (trained on COVID-home-remedies data)
-- [DeMis-COVIDLies](XXX) (trained on COVIDLies data)
+- ~[DeMis-COMYTH-W](XXX) (trained on COVID-weather data)~
+- ~[DeMis-COMYTH-H](XXX) (trained on COVID-home-remedies data)~
+- ~[DeMis-COVIDLies](XXX) (trained on COVIDLies data)~
 
-## ⚙️ Usage (coming soon)
+## ⚙️ ~Usage~ (coming soon)
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
 
 ### 1. Coming soon.
