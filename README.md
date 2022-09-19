@@ -1,5 +1,5 @@
 # DeMis: Data-efficient Misinformation Detection using RL
-Reinforcement Learning based models for misinformation detection on Twitter. This repo is the official resource of the following paper.
+Resources for misinformation detection on Twitter. This repo is the official resource of the following paper.
 - *DeMis: Data-efficient Misinformation Detection using Reinforcement Learning*, ECML-PKDD 2022.
 - [[Paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing)][[Slide](https://docs.google.com/presentation/d/1buKDec8GezzwbNgR8lfj_dA4fqiVqc3qfewDq1W-Gl4/edit?usp=sharing)]
 
