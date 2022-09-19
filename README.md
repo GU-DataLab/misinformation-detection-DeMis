@@ -9,48 +9,18 @@ The data sets about COVID-19 misinformation on Twitter presented in [our paper](
 - COMYTH (weather & home-remedies) - [[Datasets](https://portals.mdi.georgetown.edu/public/misinformation-detection)]
 - COVIDLies - [[Paper](https://aclanthology.org/2020.nlpcovid19-2.11/)]
 
-## 🚀 Pre-trained Models
+## 🚀 Pre-trained Models (coming soon)
 We release our models for misinformation detection on Twitter trained using DeMis method. There are three models trained on three COVID-19 misinformation data sets separately. All trained misinformation detection models are available on my [Google Drive](XXX) 🤗 so you can download models via PyTorch and use it for prediction right away!!!
 
 - [DeMis-COMYTH-W](XXX) (trained on COVID-weather data)
 - [DeMis-COMYTH-H](XXX) (trained on COVID-home-remedies data)
 - [DeMis-COVIDLies](XXX) (trained on COVIDLies data)
 
-## ⚙️ Usage
+## ⚙️ Usage (coming soon)
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
 
-### 1. Choose and load the model and tokenizer for misinformation detection
+### 1. Coming soon.
 ```python
-from XXX
-
-# Choose GPU if available
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# Select mode path here
-model_path = "XXX"
-
-# Load model
-
-```
-
-### 2. Get a prediction (see more in `sample_predict.py`)
-```python
-id2label = {
-    0: "legitimate",
-    1: "misinfo"
-}
-
-##### Prediction #####
-sentence = "Heat in the summer kills COVID!!!"
-inputs = tokenizer(sentence, return_tensors="pt")
-outputs = model(**inputs)
-predicted_probability = torch.softmax(outputs[0], dim=1)[0].tolist()
-
-print("Sentence:", sentence)
-print("Prediction:", id2label[np.argmax(predicted_probability)])
-print("Legitimate:", predicted_probability[0])
-print("Misinfo:", predicted_probability[1])
-
 # please consider citing our paper if you feel this is useful :)
 ```
 
