@@ -3,11 +3,15 @@ Resources for misinformation detection on Twitter. This repo is the official res
 - *DeMis: Data-efficient Misinformation Detection using Reinforcement Learning*, ECML-PKDD 2022.
 - [[Paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing)][[Slide](https://docs.google.com/presentation/d/1buKDec8GezzwbNgR8lfj_dA4fqiVqc3qfewDq1W-Gl4/edit?usp=sharing)]
 
+<img width="540" alt="overview-model" src="https://user-images.githubusercontent.com/15230011/191144467-604bcdd8-a21a-4391-a85e-245225a67c6b.png">
+
 ## 📚 Data Sets
 The data sets about COVID-19 misinformation on Twitter presented in [our paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing) are available below.
 
 - COMYTH (weather & home-remedies) - [[Datasets](https://portals.mdi.georgetown.edu/public/misinformation-detection)]
 - COVIDLies - [[Paper](https://aclanthology.org/2020.nlpcovid19-2.11/)]
+
+<img width="540" alt="image" src="https://user-images.githubusercontent.com/15230011/191144727-37843f6d-67ac-4180-8670-1b39558142fe.png">
 
 ## 🚀 ~Pre-trained Models~ (coming soon)
 We release our models for misinformation detection on Twitter trained using DeMis method. There are three models trained on three COVID-19 misinformation data sets separately. All trained misinformation detection models are available on my [Google Drive](XXX) 🤗 so you can download models via PyTorch and use it for prediction right away!!!
