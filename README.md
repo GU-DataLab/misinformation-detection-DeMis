@@ -13,12 +13,12 @@ The data sets about COVID-19 misinformation on Twitter presented in [our paper](
 
 <img width="540" alt="image" src="https://user-images.githubusercontent.com/15230011/191144727-37843f6d-67ac-4180-8670-1b39558142fe.png">
 
-## 🚀 ~Pre-trained Models~ (coming soon)
+## 🚀 Pre-trained Models
 We release our models for misinformation detection on Twitter trained using DeMis method. There are three models trained on three COVID-19 misinformation data sets separately. All trained misinformation detection models are available on my [Google Drive](https://drive.google.com/drive/folders/1czX7oh_pvQaYsY3w-RjPZrZEE9v_d8dW?usp=sharing) 🤗 so you can download models via PyTorch and use it for prediction right away!!!
 
-- ~[DeMis-COMYTH-W](XXX) (trained on COVID-weather data)~
-- ~[DeMis-COMYTH-H](XXX) (trained on COVID-home-remedies data)~
-- ~[DeMis-COVIDLies](XXX) (trained on COVIDLies data)~
+- [DeMis-COMYTH-W](https://drive.google.com/file/d/1x7AAP7aw9KzPtz0JC8T_XYCpV2dFMs9e/view?usp=sharing) (trained on COVID-weather data)
+- [DeMis-COMYTH-H](https://drive.google.com/file/d/19n02CFvEbQJ2hRL9noU3vVLCIqY-WtjW/view?usp=sharing) (trained on COVID-home-remedies data)
+- [DeMis-COVIDLies](https://drive.google.com/file/d/14Hc5IhYqKI5fxNkLZqgnQ8KwO-waGtSu/view?usp=sharing) (trained on COVIDLies data)
 
 ## ⚙️ ~Usage~ (coming soon)
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
