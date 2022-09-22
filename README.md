@@ -20,22 +20,22 @@ We release our models for misinformation detection on Twitter trained using DeMi
 - [DeMis-COMYTH-H](https://drive.google.com/file/d/19n02CFvEbQJ2hRL9noU3vVLCIqY-WtjW/view?usp=sharing) (trained on COVID-home-remedies data)
 - [DeMis-COVIDLies](https://drive.google.com/file/d/14Hc5IhYqKI5fxNkLZqgnQ8KwO-waGtSu/view?usp=sharing) (trained on COVIDLies data)
 
-## ⚙️ ~Usage~ (coming soon)
+## ⚙️ Usage
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
 
-### Usage-1: Preprocessing tweets
+### Usage 1: Preprocessing tweets
 Specify the input and output filepaths in the shell script `run_tweet_preprocessing.sh` and run the following command.
 ```shell
 sh scripts/run_tweet_preprocessing.sh
 ```
 
-### Usage-2: Run the detection model for classification
-Specify the input and output filepaths in the shell script `run_detector.sh` and run the following command.
+### Usage 2: Run the detection model for classification
+Specify the model path, input and output filepaths in the shell script `run_detector.sh`. Note that you can download the models from the section above and try running it with the following command, or you can train a new detection model using DeMis in the next section.
 ```shell
 sh scripts/run_detector.sh
 ```
 
-### Usage-3: Train detector using DeMis
+### Usage 3: Train detector using DeMis
 1. Run script `run_weak_annotator.sh` to generate weak labels based on similarity between unlabeled tweets and claims. Note that this will also generate similarity matrix so we can reuse it for other myth themes by adding `similarity_matrix_filepath` argument to the shell script.
 ```shell
 sh scripts/run_weak_annotator.sh
