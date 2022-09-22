@@ -53,9 +53,9 @@ sh scripts/run_sim_sentence_embedding_strong_labeled.sh
 ```shell
 sh scripts/run_build_info_for_RL_state.sh
 ```
-5. Run `run_generate_sentence_embeddings.sh` to create sentence embedding matrix for calculating max/min similarity during the state creation as an element of state info.
+5. Run `run_sim_sentence_embedding_weak_labeled.sh` to create sentence embedding matrix for weak labeled data in order to calculate max/min similarity during the state creation as an element of state info.
 ```shell
-sh scripts/run_generate_sentence_embeddings.sh
+sh scripts/run_sim_sentence_embedding_weak_labeled.sh
 ```
 6. Run `train_demis.sh` to train the model.
 > **WARNING**: With the actual setting described in the paper, this step can take a few hours to finish, therefore, the setting in the script is used for testing purpose only.
