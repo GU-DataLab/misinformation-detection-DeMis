@@ -136,3 +136,6 @@ trained_models
 
 # Pytorch saved files
 *.pt
+
+# Similarity matrix for unlabeled data, need to recompute since it is too big to store on the repo
+similarity_matrix/unlabeled_tweets

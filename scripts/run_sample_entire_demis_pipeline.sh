@@ -13,4 +13,4 @@ sh scripts/run_build_info_for_RL_state.sh
 # 5. Generate sentence embedding for weak labels
 sh scripts/run_sim_sentence_embedding_weak_labeled.sh
 # 6. train the detection model using DeMis method
-sh scripts/train_demis.sh
+sh scripts/run_train_demis.sh

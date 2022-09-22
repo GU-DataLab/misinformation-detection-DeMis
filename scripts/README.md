@@ -34,8 +34,8 @@ sh scripts/run_build_info_for_RL_state.sh
 ```shell
 sh scripts/run_sim_sentence_embedding_weak_labeled.sh
 ```
-6. Run `train_demis.sh` to train the model.
+6. Run `run_train_demis.sh` to train the model.
 > **WARNING**: With the actual setting described in the paper, this step can take a few hours to finish, therefore, the setting in the script is used for testing purpose only.
 ```shell
-sh scripts/train_demis.sh
+sh scripts/run_train_demis.sh
 ```
