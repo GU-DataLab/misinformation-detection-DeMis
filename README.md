@@ -37,6 +37,7 @@ sh scripts/run_detector.sh
 
 ### Usage 3: Train detector using DeMis
 1. Run script `run_weak_annotator.sh` to generate weak labels based on similarity between unlabeled tweets and claims. Note that this will also generate similarity matrix so we can reuse it for other myth themes by adding `similarity_matrix_filepath` argument to the shell script.
+> **WARNING**: This step can take up to an hour depending on the size of unlabeled data.
 ```shell
 sh scripts/run_weak_annotator.sh
 ```
@@ -57,6 +58,7 @@ sh scripts/run_build_info_for_RL_state.sh
 sh scripts/run_generate_sentence_embeddings.sh
 ```
 6. Run `train_demis.sh` to train the model.
+> **WARNING**: With the actual setting described in the paper, this step can take a few hours to finish, therefore, the setting in the script is used for testing purpose only.
 ```shell
 sh scripts/train_demis.sh
 ```
