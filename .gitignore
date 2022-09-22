@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Datasets, please download from the link in the repo.
+datasets
+
+# Trained models, you can download from the link in the repo or train a new model.
+trained_models
+
+# Pytorch saved files
+*.pt
