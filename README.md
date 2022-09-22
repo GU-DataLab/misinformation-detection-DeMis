@@ -23,7 +23,13 @@ We release our models for misinformation detection on Twitter trained using DeMi
 ## ⚙️ ~Usage~ (coming soon)
 We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
 
-### 1. Coming soon.
+### Train using DeMis
+1. Run script `sh run_weak_annotator.sh` to generate weak labels based on similarity between unlabeled tweets and claims. Note that this will also generate similarity matrix so we can reuse it for other myth themes by adding `similarity_matrix_filepath` argument to the shell script.
+2. Run `sh run_get_balanced_weak_labeled_data.sh` to build a balanced set of weak labeled data.
+3. Run `sh run_sim_sentence_embedding_strong_labeled.sh` to generate similarity matrix between strong-labeled tweets and claims. No need to generate similarity matrix for unlabeled tweets since it is already done in the step 1.
+4. Run `sh run_build_info_for_RL_state.sh` to build state information. Both stong and weak labeled data must have been proceesed.
+5. Run `sh run_generate_sentence_embeddings` to create sentence embedding matrix for calculating max/min similarity during the state creation as an element of state info.
+6. Run `sh train_demis.sh` to train the model.
 ```python
 # please consider citing our paper if you feel this is useful :)
 ```
