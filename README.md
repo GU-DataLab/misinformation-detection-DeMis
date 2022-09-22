@@ -21,7 +21,7 @@ We release our models for misinformation detection on Twitter trained using DeMi
 - [DeMis-COVIDLies](https://drive.google.com/file/d/14Hc5IhYqKI5fxNkLZqgnQ8KwO-waGtSu/view?usp=sharing) (trained on COVIDLies data)
 
 ## ⚙️ Usage
-We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
+You can use the code to do any of the following purposes: (1) preprocessing tweets, (2) running the model for prediction, or (3) training the model. We tested in `pytorch v1.10.1` and `transformers v4.18.0`.
 
 ### Usage 1: Preprocessing tweets
 Specify the input and output filepaths in the shell script `run_tweet_preprocessing.sh` and run the following command.
