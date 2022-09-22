@@ -1,7 +1,9 @@
-Download datasets and put them here. The structure of datasets should look like followings.
+# Get started
+
+[Download datasets](https://github.com/GU-DataLab/misinformation-detection-DeMis#-data-sets) and put them here. The structure of datasets should look like followings.
 
 ```bash
-.
+root
 ├── datasets
 │   ├── claims
 │   │   └── claims-covid-19.csv
