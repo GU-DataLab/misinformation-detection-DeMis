@@ -2,7 +2,7 @@
 
 
 CUDA_VISIBLE_DEVICES=0 \
-python -u train_demis.py \
+python -u code/train_demis.py \
     --train_manual_filepath="datasets/tweets/weather_myth_train_with_info.csv" \
     --train_weak_filepath="datasets/tweets/weak_label_weather_with_info.csv" \
     --validation_filepath="datasets/tweets/weather_myth_val.csv" \
