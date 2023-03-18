@@ -1,12 +1,12 @@
 # DeMis: Data-efficient Misinformation Detection using RL
 Resources for misinformation detection on Twitter. This repo is the official resource of the following paper.
 - *DeMis: Data-efficient Misinformation Detection using Reinforcement Learning*, ECML-PKDD 2022.
-- [[Paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing)][[Slide](https://drive.google.com/file/d/1S9UUctw6rHw28FOk6zv1zaimLojcONIv/view?usp=sharing)]
+- [[Link](https://doi.org/10.1007/978-3-031-26390-3_14)][[PDF](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing)][[Slide](https://drive.google.com/file/d/1S9UUctw6rHw28FOk6zv1zaimLojcONIv/view?usp=sharing)]
 
 <img width="540" alt="overview-model" src="https://user-images.githubusercontent.com/15230011/191144467-604bcdd8-a21a-4391-a85e-245225a67c6b.png">
 
 ## 📚 Data Sets
-The data sets about COVID-19 misinformation on Twitter presented in [our paper](https://drive.google.com/file/d/1oQL5R5YiaO3Wdj6o7Nqd7BVAN2kSMxN8/view?usp=sharing) are available below.
+The data sets about COVID-19 misinformation on Twitter presented in [our paper](https://doi.org/10.1007/978-3-031-26390-3_14) are available below.
 
 - COMYTH (weather & home-remedies) - [[Datasets](https://portals.mdi.georgetown.edu/public/misinformation-detection)]
 - COVIDLies - [[Paper](https://aclanthology.org/2020.nlpcovid19-2.11/)]
